@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Ali | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas-container">
+        <canvas id="particles-canvas"></canvas>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="logo">AMAN ALI</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Aman Ali">Aman Ali</h1>
+            <h2 class="subtitle">Software Engineer</h2>
+            <p class="hero-subtext">Specialized in modern web development, app development, and game development.</p>
+            <a href="#projects" class="cta-button magnetic-button">Explore My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="cards-container">
+            <div class="glass-card float-card" style="--delay: 0s">
+                <h3>Education</h3>
+                <p>Final-year Software Engineering student.</p>
+            </div>
+            <div class="glass-card float-card" style="--delay: 1s">
+                <h3>Experience</h3>
+                <p>Experienced in .NET, Dart/Flutter, Java, and AI-based web apps.</p>
+            </div>
+            <div class="glass-card float-card" style="--delay: 2s">
+                <h3>Innovation</h3>
+                <p>FYP: DermaScan — AI-Powered Skin Diagnosis System.</p>
+            </div>
+            <div class="glass-card float-card" style="--delay: 3s">
+                <h3>Versatility</h3>
+                <p>From Blockchain Ride Sharing to YouTube Data Analysis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card tilt-card">
+                <div class="card-content">
+                    <h3>DermaScan</h3>
+                    <p>AI-Powered Skin Diagnosis System using advanced machine learning algorithms.</p>
+                    <span class="tag">AI/ML</span>
+                    <span class="tag">Web App</span>
+                </div>
+            </div>
+            <div class="project-card tilt-card">
+                <div class="card-content">
+                    <h3>Blockchain Ride Sharing</h3>
+                    <p>Decentralized ride-sharing application ensuring transparency and security.</p>
+                    <span class="tag">Blockchain</span>
+                    <span class="tag">App</span>
+                </div>
+            </div>
+            <div class="project-card tilt-card">
+                <div class="card-content">
+                    <h3>YouTube Data Analysis</h3>
+                    <p>System for analyzing and visualizing YouTube channel performance data.</p>
+                    <span class="tag">Data Analysis</span>
+                    <span class="tag">Python</span>
+                </div>
+            </div>
+            <div class="project-card tilt-card">
+                <div class="card-content">
+                    <h3>Live Chat System</h3>
+                    <p>Real-time messaging application built using SignalR.</p>
+                    <span class="tag">SignalR</span>
+                    <span class="tag">.NET</span>
+                </div>
+            </div>
+            <div class="project-card tilt-card">
+                <div class="card-content">
+                    <h3>Game Dev & Mobile Apps</h3>
+                    <p>Various immersive games and cross-platform mobile applications.</p>
+                    <span class="tag">Unity</span>
+                    <span class="tag">Flutter</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-bubble" style="--size: 100px; --float-duration: 6s; --float-delay: 0s;">.NET Core</div>
+            <div class="skill-bubble" style="--size: 80px; --float-duration: 5s; --float-delay: 1s;">C#</div>
+            <div class="skill-bubble" style="--size: 90px; --float-duration: 7s; --float-delay: 2s;">Flutter</div>
+            <div class="skill-bubble" style="--size: 85px; --float-duration: 5.5s; --float-delay: 0.5s;">Java</div>
+            <div class="skill-bubble" style="--size: 95px; --float-duration: 6.5s; --float-delay: 1.5s;">SQL</div>
+            <div class="skill-bubble" style="--size: 110px; --float-duration: 8s; --float-delay: 0.2s;">AI/ML</div>
+            <div class="skill-bubble" style="--size: 120px; --float-duration: 7.5s; --float-delay: 2.5s;">Full-Stack</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-form-container glass-card">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required placeholder=" "></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="cta-button magnetic-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aman Ali. Built with Anti-Gravity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
