@@ -1,4 +1,4 @@
-# Anti-Gravity Portfolio
+#  Portfolio
 
 A futuristic, anti-gravity themed personal portfolio website for Aman Ali, Software Engineer.
 
